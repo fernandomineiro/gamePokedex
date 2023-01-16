@@ -197,7 +197,7 @@ const DetailPokemon: React.FC = () => {
 
               <Input
                 required
-                placeholder="enter a nickname"
+                placeholder="Digite o apelido"
                 onChange={(e: ChangeEvent<HTMLInputElement>) =>
                   setNickname(e.target.value.toUpperCase())
                 }
